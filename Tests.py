@@ -7,13 +7,14 @@ import names
 
 class TestSuite(unittest.TestCase):
 
+    base_url = 'localhost:80'
     # setUp se ejecuta antes de cada test method
 
     def setUp(self):
         self.driver = webdriver.Chrome('/Users/cizquierdo/PycharmProjects/POExample/chromedriver')
 
     def test_login(self):
-        self.driver.get('http://192.168.64.2/')
+        self.driver.get(self.base_url)
         base_logout_po = PO.BaseLogoutPO(self.driver)
         login_po = base_logout_po.goto_login()
         login_po.login('user', 'bitnami1')
@@ -22,7 +23,7 @@ class TestSuite(unittest.TestCase):
 
     def test_create_new_project_without_modules(self):
         project_name = names.get_full_name()
-        self.driver.get('http://192.168.64.2/')
+        self.driver.get(self.base_url)
         base_logout_po = PO.BaseLogoutPO(self.driver)
         login_po = base_logout_po.goto_login()
         login_po.login('user', 'bitnami1')
