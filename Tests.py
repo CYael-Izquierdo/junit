@@ -5,7 +5,7 @@ import PageObjects as PO
 import names
 
 
-class Tests(unittest.TestCase):
+class TestSuite(unittest.TestCase):
 
     # setUp se ejecuta antes de cada test method
 
