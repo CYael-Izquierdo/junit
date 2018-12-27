@@ -5,7 +5,7 @@ import PageObjects as PO
 import names
 
 
-class LoginTestCase(unittest.TestCase):
+class Tests(unittest.TestCase):
 
     # setUp se ejecuta antes de cada test method
 
