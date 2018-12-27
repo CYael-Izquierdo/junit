@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Tests.LoginTestCase-20181227083624" skipped="0" tests="2" time="9.496" timestamp="2018-12-27T08:36:34">
+	<testcase classname="Tests.LoginTestCase" name="test_create_new_project_without_modules" time="6.054" timestamp="2018-12-27T08:36:30"/>
+	<testcase classname="Tests.LoginTestCase" name="test_login" time="3.443" timestamp="2018-12-27T08:36:34"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,2 +1,3 @@
 selenium
 names
+unittest-xml-reporting

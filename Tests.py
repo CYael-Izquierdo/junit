@@ -1,4 +1,5 @@
 import unittest
+import xmlrunner
 from selenium import webdriver
 import PageObjects as PO
 import names
