@@ -33,5 +33,8 @@ class LoginTestCase(unittest.TestCase):
         project_setting_po = PO.ProjectSettingsPO(self.driver)
         self.assertEqual('Successful creation.', project_setting_po.get_flash_notice_text())
 
+    def test_fail(self):
+        self.fail()
+
     def tearDown(self):
         self.driver.close()
