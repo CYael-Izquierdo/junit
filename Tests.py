@@ -7,7 +7,7 @@ import names
 
 class TestSuite(unittest.TestCase):
 
-    base_url = 'localhost:80'
+    base_url = 'http://192.168.64.2'
     # setUp se ejecuta antes de cada test method
 
     def setUp(self):
